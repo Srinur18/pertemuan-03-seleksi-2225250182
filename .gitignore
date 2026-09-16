@@ -1,0 +1,116 @@
+# ==========================================================
+# GITIGNORE - ALGORITMA DAN PEMROGRAMAN
+# ==========================================================
+# File ini digunakan untuk menentukan file atau folder yang
+# tidak perlu diunggah ke repository GitHub.
+# ==========================================================
+
+
+# ----------------------------------------------------------
+# 1. PYTHON CACHE
+# ----------------------------------------------------------
+# Python dapat membuat folder __pycache__ ketika program
+# dijalankan. Folder ini tidak perlu disimpan di GitHub.
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ----------------------------------------------------------
+# 2. VIRTUAL ENVIRONMENT
+# ----------------------------------------------------------
+# Jika menggunakan virtual environment Python, folder ini
+# tidak perlu diunggah ke repository.
+
+venv/
+.venv/
+env/
+ENV/
+
+
+# ----------------------------------------------------------
+# 3. VISUAL STUDIO CODE
+# ----------------------------------------------------------
+# File pengaturan pribadi Visual Studio Code tidak perlu
+# dimasukkan ke repository.
+
+.vscode/
+
+
+# ----------------------------------------------------------
+# 4. PYCHARM / IDE LAIN
+# ----------------------------------------------------------
+# Mengabaikan file konfigurasi IDE yang bersifat pribadi.
+
+.idea/
+*.iml
+
+
+# ----------------------------------------------------------
+# 5. FILE SISTEM OPERASI
+# ----------------------------------------------------------
+# File yang dibuat secara otomatis oleh sistem operasi.
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ----------------------------------------------------------
+# 6. FILE SEMENTARA
+# ----------------------------------------------------------
+# File sementara atau backup tidak perlu diunggah.
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# ----------------------------------------------------------
+# 7. FILE LOG
+# ----------------------------------------------------------
+# File log hasil proses program atau aplikasi.
+
+*.log
+
+
+# ----------------------------------------------------------
+# 8. FILE HASIL COVERAGE / TESTING
+# ----------------------------------------------------------
+# File yang dihasilkan oleh proses pengujian Python.
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+
+# ----------------------------------------------------------
+# 9. JUPYTER NOTEBOOK CHECKPOINT
+# ----------------------------------------------------------
+# Jika menggunakan Jupyter Notebook, folder checkpoint
+# berikut tidak perlu diunggah.
+
+.ipynb_checkpoints/
+
+
+# ----------------------------------------------------------
+# 10. FILE DISTRIBUSI PYTHON
+# ----------------------------------------------------------
+# File hasil build atau distribusi Python.
+
+build/
+dist/
+*.egg-info/
+
+
+# ----------------------------------------------------------
+# 11. FILE KONFIGURASI LOKAL
+# ----------------------------------------------------------
+# File konfigurasi lokal yang mungkin berisi pengaturan
+# khusus pada komputer pengguna.
+
+.env
+.env.local
